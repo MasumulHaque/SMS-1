@@ -1,0 +1,159 @@
+/* Reset some default browser styles */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style for the main heading (h1) */
+h1 {
+    color: #4285f4;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style for subheadings (h2) */
+h2 {
+    color: #555;
+}
+
+/* Style for paragraphs (p) */
+p {
+    margin-bottom: 15px;
+}
+
+/* Apply styles to the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Style for form input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style for form submit button */
+input[type="submit"] {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for form submit button on hover */
+input[type="submit"]:hover {
+    background-color: #357ae8;
+}
+.input{
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.heder1{
+    text-align: center;
+    background-color: #8bf71f;
+    height: 50px;
+    width: 100%;
+
+}
+/* Style for the main heading (h2) */
+h2 {
+    color: #4285f4;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style for the unordered list (ul) */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for list items (li) */
+li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style for links within list items */
+li a {
+    text-decoration: none;
+    color: #4285f4;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Style for links on hover */
+li a:hover {
+    text-decoration: underline;
+    color: #0d47a1;
+}
+h2 {
+    color: #4285f4;
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: #4285f4;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0d47a1;
+}
